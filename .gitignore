@@ -1,0 +1,23 @@
+/node_modules/
+/.next/
+/.run/
+/.playwright-cli/
+/coverage/
+/playwright-report/
+/test-results/
+/output/
+/data/
+
+.env*
+!.env.example
+
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# Fichiers personnels et sauvegardes locales (jamais versionnés)
+/*.pdf
+/*.docx
+/*.bak
+/*.bak.*
+/launch-app.sh
